@@ -17,7 +17,7 @@ class Blog(db.Model):
     def __init__(self, name, entry):
         self.name = name
         self.entry = entry 
-
+        
 
 @app.route('/')
 def index():
